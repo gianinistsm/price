@@ -1,3 +1,10 @@
+.superior {
+    padding-inline: 1.5rem;
+    padding-block: 2rem;
+    border-radius: 0.3125;
+    background-color: white;
+}
+
 .first-child {
     font-weight: 700;
     line-height: 1.25rem;
@@ -11,17 +18,57 @@
     font-size: 0.875rem;
 }
 
-.superior {
-    padding-inline: 1.5rem;
-    padding-block: 2rem;
-}
-
 .esquerda {
     background-color: var(--Cyan);
     padding: 1.5rem;
 }
 
+.pp {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+
+.sp {
+    color:white;
+    opacity: 0.5;
+}
+
+.price {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.esquerdap {
+    color: white;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+button {
+    padding-block: 1rem;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    border: none;
+    background-color: var(--Bright-Yellow);
+    border-radius: 0.3125rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011)
+}
+
 .direita {
     background-color: var(--Light-Cyan);
     padding: 1.5rem;
+    border-bottom: 0.3125rem;
+}
+
+.direita p {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: white;
+    opacity: 0.75;
 }
